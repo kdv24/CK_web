@@ -1,0 +1,152 @@
+
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #d61766;
+	background: #ffffff repeat;
+}
+
+
+
+a {
+	color: #d61766;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #b4c34f;
+}
+
+
+
+#social {
+	padding: 0px 56px 0px 0px;
+	float: right;
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+}
+
+#menu {
+	width: auto;
+	list-style: none;
+	float: left;
+	padding: 0px 0px;
+}
+
+ul.header li{
+	border-bottom: 1px solid #28271C;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	border-top: 1px solid #28271C;
+	list-style: none;
+	float: left;
+	padding: 20px 56px;
+	letter-spacing: 1.25px;
+}
+
+ul.footer li{
+	border-bottom: 1px solid  #28271C;
+	float: left;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+	border-top: 1px solid #28271C;
+	list-style: none;
+	float: left;	
+	padding: 20px 38px 5px 38px;
+	letter-spacing: 1.25px;
+	
+}
+
+.about {
+	color: #28271C;
+	width: auto;
+	margin: auto;
+	padding: 0px 0px 0px 40px;
+	float: left;
+}
+
+.black_text {
+	color: #28271C;
+	letter-spacing: 1.5px;
+	font-size: .750em;
+}
+
+
+#storefront img{
+	width: auto;
+	margin: auto;
+	padding: 0px 0px 0px 40px;
+	float: left;
+}
+
+#logo_gif {
+	width: 700px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+#header-pic {
+	width: 700px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+/***************************************
+PAGE: PATTERNS  --- all images 280 x 320
+***************************************/
+
+#gallery {
+		margin: none;
+		padding: none;
+		list-style: none;
+		display: inline-block;
+	}
+
+#gallery li {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+	}	
+
+#gallery li a p {
+		margin: 0;
+		padding:  5%;
+		font-size: 0.75em;
+	}	
+
+iframe {
+	max-width: 100%;
+}	
+
+#contact {
+	width: auto;
+	margin: auto;
+	padding-left: 60px;
+}
+
+#copyright {
+	width: 1000px;
+	margin: 0px;
+	text-align: center;
+	color: #28271C;
+	font-weight: 100;
+	font-size: .750em;
+	letter-spacing: 1.5px;
+}
+

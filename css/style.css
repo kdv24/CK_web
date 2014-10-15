@@ -41,12 +41,7 @@ h2 {
 	margin: 0px 0px 0px 0px;
 }
 
-#menu {
-	width: auto;
-	list-style: none;
-	float: left;
-	padding: 0px 0px;
-}
+
 
 ul.header li{
 	border-bottom: 1px solid #28271C;
@@ -115,12 +110,14 @@ PAGE: PATTERNS  --- all images 280 x 320
 		margin: none;
 		padding: none;
 		list-style: none;
+		
+
 		display: inline-block;
 	}
 
 #gallery li {
 		float: left;
-		width: 45%;
+		width: 28.3333%;
 		margin: 2.5%;
 	}	
 

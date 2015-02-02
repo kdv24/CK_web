@@ -36,11 +36,13 @@
         <li><a href="patterns.html">PATTERNS</a></li>
         <li><a href="http://closeknitportland.blogspot.com" target="_blank">BLOG</a></li>
       </ul>
-
-     <div class="about" class="grid_12 omega">
-      <p>
-      Close Knit offers wonderful products. Blah blah blah.... ya da ya da. lotsa text. lLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    </div>
+    <div class="about" class="grid_12 omega">
+        <p>
+        Close Knit offers wonderful products. Blah blah blah.... ya da ya da. lotsa text. lLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+    <div class="container grid_3 omega">
         <h4>Our selection as of <?php echo date('m/d/y'); ?></h4>
           <p>&copy;<?php echo date('Y') ; ?> Close Knit</p>
           <img src="img/ckyarns/artyarns.png" alt="artyarns">
@@ -51,8 +53,8 @@
           <img src="img/ckyarns/fyberspates.png" alt="fyberspates">
           <img src="img/ckyarns/gingkoleaf.png" alt="gingkoleaf">
           <img src="img/ckyarns/hoggwildfibers.png" alt="hoggwildfibers">
-      </div> 
-
+    </div> 
+    <div class="container grid_12">
       <ul class="footer">
         <li>HOURS
           <p class="black_text"><span>M-F 10a-6p Sat 10a-5p Sun 11a-4p</span><br>

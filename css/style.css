@@ -70,7 +70,7 @@ ul.footer li{
 
 .about {
 	color: #28271C;
-	width: auto;
+	width: 100%;
 	margin: auto;
 	padding: 0px 0px 0px 40px;
 	float: left;
@@ -84,7 +84,7 @@ ul.footer li{
 
 
 #storefront img{
-	width: auto;
+	width: 100%;
 	margin: auto;
 	padding: 0px 0px 0px 40px;
 	float: left;
@@ -110,8 +110,7 @@ PAGE: PATTERNS  --- all images 280 x 320
 		margin: none;
 		padding: none;
 		list-style: none;
-		
-
+		width: 100%;
 		display: inline-block;
 	}
 
@@ -127,8 +126,13 @@ PAGE: PATTERNS  --- all images 280 x 320
 		font-size: 0.75em;
 	}	
 
+.products img {
+	width: 28.333%;
+}
+
 iframe {
-	max-width: 100%;
+	width: 100%;
+	height: 800px;
 }	
 
 #contact {

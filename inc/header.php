@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Close Knit</title> 
+  <title><?php echo "Close Knit"; ?></title> 
 
   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
   <link rel="stylesheet" type="text/css" href="css.responsive.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,7 +16,7 @@
 <body>
    <div class="container clearfix">
     <div id="logo_gif" class="grid_12 alpha">
-      <a href= "index.html"><img src="img/closeknit_portland.gif" alt="CloseKnit"></a>
+      <a href= "index.php"><img src="img/closeknit_portland.gif" alt="CloseKnit"></a>
     </div>
 
 <!--Flicker and Ravelry links need to be added -->
@@ -32,42 +32,14 @@
 
       </ul>
     </div>
-
-    <div class="header" class="grid_12 omega">
-      <ul class="header">
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="classes.html">CLASSES</a></li>
-        <li><a href="products.php">PRODUCTS</a></li>
-        <li><a href="patterns.html">PATTERNS</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-      </ul>
-
-
-    <div id="storefront">
-          <img src="img/yarnwall.jpg" alt="CloseKnit Storefront">
-    </div> 
-
-    <div>
-      <ul class="footer">
-        <li>HOURS
-          <p class="black_text"><span>M-F 10a-6p Sat 10a-5p Sun 11a-4p</span><br>
-          <span>Knit Night: W eves 6p-9p</span></p> </li>
-        <li>LOCATION
-          <p class="black_text"><span>2140 NE Alberta Street<br> Portland, OR 97211</span><br></p></li>
-  <!--   LINK TO USE FOR ADDRESS:    https://goo.gl/maps/mD7wJ  -->        
-        <li>PHONE
-          <p class="black_text"><span><a href="tel:1-503-288-4568">503-288-4568</span> <br><br></p> </li>
-        <li>EMAIL
-          <p class="black_text"><span><a href="mailto:name@email.com">Put clickable email here</span><br><br></p></li>
-      </ul>
-    </div>
-    
-    <div id="copyright" class="grid_12">
-      <p>© 2014 Close Knit. All Rights Reserved.</p>
-    </div>
-    
-  </div>
-  
-  
-</body>
-</html>
+    <div id="menu">
+      <div class="container grid_12 omega">
+        <ul class="header">
+          <li><a href="about.php">ABOUT</a></li>
+          <li><a href="classes.php">CLASSES</a></li>
+          <li><a href="products.php">PRODUCTS</a></li>
+          <li><a href="patterns.php">PATTERNS</a></li>
+          <li><a href="blog.php">BLOG</a></li>
+        </ul>
+      </div>
+    </div>  

@@ -1,3 +1,21 @@
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$message = $_POST["message"];
+	$email_body = "";
+	$email_body = $email_body . "Name: " . $name . "\n";
+	$email_body = $email_body . "Email: " . $email . "\n";
+	$email_body = $email_body . "Message: " . $message;
+
+	// TODO: Send Email
+
+	header("Location: contact_thanks.php");	
+	exit;
+}
+?>
+
 <?php 
 $pageTitle = "about us";
 $section = "about";
@@ -9,7 +27,7 @@ include('inc/header.php'); ?>
       </p>
       <h3>Contact Us</h3>
       <p>By all means, tell us what you're thinking and ask your questions!  Simply fill out the form below.
-      <form method="post" action="contact-process.php">
+      <form method="post" action="about.php">
       	<table>
 	      	<tr>
 	      		<th>

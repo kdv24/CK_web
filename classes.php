@@ -1,4 +1,7 @@
-<?php include('inc/header.php'); ?>
+<?php
+$pageTitle = "Current Classes at Close Knit";
+$section = "classes";
+include('inc/header.php'); ?>
 
      <div class="about" class="grid_12 omega">
       <p>

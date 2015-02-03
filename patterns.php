@@ -1,4 +1,7 @@
-<?php include('inc/header.php'); ?>
+<?php
+$pageTitle = "Free Patterns";
+$section = "patterns";
+include('inc/header.php'); ?>
 
      <div class="about" class="grid_12 omega">
       <p>

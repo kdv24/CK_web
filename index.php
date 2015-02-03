@@ -1,4 +1,6 @@
-<?php include('inc/header.php'); ?>
+<?php 
+$pageTitle = "index";
+include('inc/header.php'); ?>
 
 
     <div class="container grid_12 omega">

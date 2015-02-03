@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title><?php echo "Close Knit"; ?></title> 
+  <title><?php echo $pageTitle; ?></title> 
 
   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
@@ -35,11 +35,11 @@
     <div id="menu">
       <div class="container grid_12 omega">
         <ul class="header">
-          <li><a href="about.php">ABOUT</a></li>
-          <li><a href="classes.php">CLASSES</a></li>
-          <li><a href="products.php">PRODUCTS</a></li>
-          <li><a href="patterns.php">PATTERNS</a></li>
-          <li><a href="blog.php">BLOG</a></li>
+          <li class=" <?php if ($section == "about") {echo "on"; } ?>"><a href="about.php">ABOUT</a></li>
+          <li class=" <?php if ($section == "classes") {echo "on"; } ?>"><a href="classes.php">CLASSES</a></li>
+          <li class=" <?php if ($section == "products") {echo "on"; } ?>"><a href="products.php">PRODUCTS</a></li>
+          <li class=" <?php if ($section == "patterns") {echo "on"; } ?>"><a href="patterns.php">PATTERNS</a></li>
+          <li class=" <?php if ($section == "blog") {echo "on"; } ?>"><a href="blog.php">BLOG</a></li>
         </ul>
       </div>
     </div>  

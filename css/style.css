@@ -20,6 +20,14 @@ a {
 	text-decoration: none;
 }
 
+.on {
+	text-decoration: underline;
+}
+
+.off{
+
+}
+
 h1 {
 	font-size: 1.750em;
 	font-weight: 100;
@@ -130,10 +138,25 @@ PAGE: PATTERNS  --- all images 280 x 320
 	width: 28.333%;
 }
 
+/***********************************************
+PAGE: BLOG  --- iframe for blog page contents from blogspot;
+***********************************************/
+
 iframe {
 	width: 100%;
 	height: 800px;
 }	
+
+/**************************************************
+PAGE: EMAIL_REPLY;
+**************************************************/
+
+.email_reply {
+	display: center;
+	text-align: center;
+	padding: 20% 10%;
+
+}
 
 #contact {
 	width: auto;

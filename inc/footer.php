@@ -1,5 +1,5 @@
-<div>
-      <ul class="footer">
+	<div>
+      <ul class="container footer">
         <li>HOURS
           <p class="black_text"><span>M-F 10a-6p Sat 10a-5p Sun 11a-4p</span><br>
           <span>Knit Night: W eves 6p-9p</span></p> </li>

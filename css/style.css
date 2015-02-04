@@ -11,6 +11,8 @@ body {
 	font-family: 'Nunito', sans-serif;
 	color: #d61766;
 	background: #ffffff repeat;
+	margin: 5%;
+	padding-right: 0%;
 }
 
 
@@ -43,46 +45,45 @@ h2 {
 
 
 #social {
-	padding: 0px 56px 0px 0px;
+	padding: 0px 0% 0px 0px;
 	float: right;
 	text-align: right;
 	margin: 0px 0px 0px 0px;
 }
 
+.header {
+	width: 100%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #28271C;
+	border-top: 1px solid green;
+}
 
+.footer {
+	width: 100%;
+
+}
 
 ul.header li{
-	border-bottom: 1px solid #28271C;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin-bottom: 10px;
 	text-align: center;
-	border-top: 1px solid #28271C;
 	list-style: none;
-	float: left;
-	padding: 20px 56px;
+	padding: 20px 5%;
 	letter-spacing: 1.25px;
 }
 
 ul.footer li{
 	border-bottom: 1px solid  #28271C;
 	float: left;
-	margin: 10px 0px 10px 0px;
+	margin-top: 10px;
 	text-align: center;
 	border-top: 1px solid #28271C;
 	list-style: none;
-	float: left;	
-	padding: 20px 38px 5px 38px;
+	padding: 20px 5%;
 	letter-spacing: 1.25px;
 	
 }
 
-.about {
-	color: #28271C;
-	width: 100%;
-	margin: auto;
-	padding: 0px 0px 0px 40px;
-	float: left;
-}
 
 .black_text {
 	color: #28271C;
@@ -92,23 +93,50 @@ ul.footer li{
 
 
 #storefront img{
-	width: 100%;
-	margin: auto;
-	padding: 0px 0px 0px 40px;
+	width: 90%;
 	float: left;
 }
 
 #logo_gif {
-	width: 700px;
+	width: 20%;
 	margin: 0px 0px;
 	padding: 0px 0px;
 }
 
-#header-pic {
-	width: 700px;
-	margin: 0px 0px;
-	padding: 0px 0px;
+
+
+/*****************************************
+PAGE: ABOUT
+*****************************************/
+.inline-block {
+	width: 100%;
+	height: 300px;
 }
+
+.about {
+	color: #28271C;
+	width: 100%;
+	float: left;
+}
+
+.about img {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.contact-us {
+	text-align: left;
+	margin: 5%;
+}
+
+.contact-us table {
+	display: inline-block;
+	margin-left: 25%;
+}
+
+
+
 
 /***************************************
 PAGE: PATTERNS  --- all images 280 x 320
@@ -154,7 +182,7 @@ PAGE: EMAIL_REPLY;
 .email_reply {
 	display: center;
 	text-align: center;
-	padding: 20% 10%;
+	padding: 10% 10%;
 
 }
 
@@ -165,7 +193,7 @@ PAGE: EMAIL_REPLY;
 }
 
 #copyright {
-	width: 1000px;
+	width: 100%;
 	margin: 0px;
 	text-align: center;
 	color: #28271C;

@@ -3,7 +3,7 @@ $pageTitle = "Close Knit Blogspot";
 $section = "blog";
 include('inc/header.php'); ?>
 
-     <div class="about grid_1">
+     <div class="about">
       <iframe src="http://closeknitportland.blogspot.com/"></iframe>
       </div> 
 

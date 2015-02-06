@@ -3,7 +3,7 @@ $pageTitle = "index";
 include('inc/header.php'); ?>
 
 
-    <div class="container grid_12 omega">
+    <div>
       <div id="storefront">
             <img src="img/yarnwall.jpg" alt="CloseKnit Storefront">
       </div> 

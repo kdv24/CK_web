@@ -3,7 +3,7 @@ $pageTitle = "Free Patterns";
 $section = "patterns";
 include('inc/header.php'); ?>
 
-     <div class="about" class="grid_12 omega">
+     <div class="about">
       <p>
       We at Close Knit have put together a collection of free patterns for you to enjoy.  Ya da, ya da, ya da.  Knit knit knit! 
       </p>

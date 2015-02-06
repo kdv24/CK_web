@@ -42,34 +42,41 @@ h2 {
 	color: #b4c34f;
 }
 
-
+li {
+	list-style: none;
+}
 
 #social {
-	padding: 0px 0% 0px 0px;
+
 	float: right;
 	text-align: right;
-	margin: 0px 0px 0px 0px;
 }
 
 .header {
-	width: 100%;
-	padding-bottom: 5%;
 	border-bottom: 1px solid #28271C;
-	border-top: 1px solid green;
+	border-top: 1px solid #28271C;
+	display: inline-block;
+	width: 100%;
 }
 
 .footer {
-	width: 100%;
+
+}
+
+ul .header {
+	list-style: none;
 
 }
 
 ul.header li{
-	float: left;
+	display: inline-block;
+	float: center;
 	margin-bottom: 10px;
 	text-align: center;
 	list-style: none;
-	padding: 20px 5%;
+	padding: 20px 5px;
 	letter-spacing: 1.25px;
+
 }
 
 ul.footer li{
@@ -93,14 +100,10 @@ ul.footer li{
 
 
 #storefront img{
-	width: 90%;
-	float: left;
+	width: 100%;
 }
 
 #logo_gif {
-	width: 20%;
-	margin: 0px 0px;
-	padding: 0px 0px;
 }
 
 
@@ -144,7 +147,7 @@ PAGE: PATTERNS  --- all images 280 x 320
 
 #gallery {
 		margin: none;
-		padding: none;
+		padding: 5%;
 		list-style: none;
 		width: 100%;
 		display: inline-block;
@@ -162,8 +165,12 @@ PAGE: PATTERNS  --- all images 280 x 320
 		font-size: 0.75em;
 	}	
 
-.products img {
-	width: 28.333%;
+/***************************************
+PAGE: PRODUCTS  --- 
+***************************************/
+
+.yarnPics img {
+
 }
 
 /***********************************************

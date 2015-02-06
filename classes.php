@@ -3,7 +3,7 @@ $pageTitle = "Current Classes at Close Knit";
 $section = "classes";
 include('inc/header.php'); ?>
 
-     <div class="about" class="grid_12 omega">
+     <div class="about">
       <p>
       Close Knit offers the following fabulous classes. Blah blah blah.... ya da ya da. lotsa text. 
       </p>

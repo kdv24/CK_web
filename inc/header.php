@@ -5,34 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $pageTitle; ?></title> 
 
-  <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!--BOOTSTRAP STYLESHEETS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-	<!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  	<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <!-- MY STYLESHEETS AND FONT LINKS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
-   <div class="container">
+
 
  <!--LOGO & NAME -->
-   
-      <div id="logo_gif" class="grid_12 alpha">
+    <div class="container">
+      <div id="logo_gif">
         <a href= "index.php"><img src="img/closeknit_portland.gif" alt="CloseKnit"></a>
       </div>
 
   
  <!--SOCIAL --> 
 
-      <div id="social" class="omega">
+      <div id="social">
         <ul class="social-icons">
           <a href="https://www.facebook.com/pages/closeknit-pdx/122838281079484" target="_blank">
           <img src="img/social media pngs/facebook grey.png" alt="Facebook"></a>
@@ -47,8 +46,8 @@
 
 <!--MENU/HEADER -->
 
-      <div id="menu">
-          <div class="container grid_12">
+
+          <div>
             <ul class="header">
               <li class=" <?php if ($section == "about") {echo "on"; } ?>"><a href="about.php">ABOUT</a></li>
               <li class=" <?php if ($section == "classes") {echo "on"; } ?>"><a href="classes.php">CLASSES</a></li>
@@ -57,7 +56,7 @@
               <li class=" <?php if ($section == "blog") {echo "on"; } ?>"><a href="blog.php">BLOG</a></li>
             </ul>
           </div>
-      </div>  
+
 
  
 

@@ -1,5 +1,5 @@
 	<div>
-      <ul class="container footer">
+      <ul class="footer">
         <li>HOURS
           <p class="black_text"><span>M-F 10a-6p Sat 10a-5p Sun 11a-4p</span><br>
           <span>Knit Night: W eves 6p-9p</span></p> </li>
@@ -16,3 +16,4 @@
     <div id="copyright" class="grid_12">
       <p>© <?php echo date ("Y"); ?> Close Knit. All Rights Reserved.</p>
     </div>
+

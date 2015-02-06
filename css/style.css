@@ -60,7 +60,10 @@ li {
 }
 
 .footer {
-
+	border-bottom: 1px solid  #28271C;
+	border-top: 1px solid #28271C;	
+	display: inline-block;
+	width: 100%;
 }
 
 ul .header {
@@ -80,15 +83,13 @@ ul.header li{
 }
 
 ul.footer li{
-	border-bottom: 1px solid  #28271C;
-	float: left;
+	display: inline-block;
+	float: center;	
 	margin-top: 10px;
 	text-align: center;
-	border-top: 1px solid #28271C;
 	list-style: none;
 	padding: 20px 5%;
 	letter-spacing: 1.25px;
-	
 }
 
 
@@ -169,9 +170,6 @@ PAGE: PATTERNS  --- all images 280 x 320
 PAGE: PRODUCTS  --- 
 ***************************************/
 
-.yarnPics img {
-
-}
 
 /***********************************************
 PAGE: BLOG  --- iframe for blog page contents from blogspot;
@@ -202,10 +200,13 @@ PAGE: EMAIL_REPLY;
 #copyright {
 	width: 100%;
 	margin: 0px;
+	display: inline-block;
+	float: left;
 	text-align: center;
 	color: #28271C;
 	font-weight: 100;
 	font-size: .750em;
 	letter-spacing: 1.5px;
+	padding-top: 2%;
 }
 

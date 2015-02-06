@@ -13,7 +13,7 @@
       </ul>
     </div>
     
-    <div id="copyright" class="grid_12">
+    <div id="copyright">
       <p>© <?php echo date ("Y"); ?> Close Knit. All Rights Reserved.</p>
     </div>
 

@@ -1,7 +1,8 @@
 <?php 
-$clientName = "clientName";
+$clientName = $_GET["clientName"];
+$clientEmail = $_GET["clientEmail"];
 $yarnName = $_GET["yarnName"];
-$yarnPrice = $_GET["yarnPrice"];
+$yarnQuantity = $_GET["yarnQuantity"];
 $yarnSKU = $_GET["yarnSKU"]
 ?>
 
@@ -12,9 +13,12 @@ $yarnSKU = $_GET["yarnSKU"]
 	<title>Title of my page</title>
 </head>
 <body>
-	<h1>Intro to page</h1>
-	<p>Meaningful text</p>
-	<p>More meaningful text</p>
-	<p>And so on and so forth with lots of Lorem Ipsum for nostalgic reasons or interesting <?php echo $fact_of_the_day; ?> on my pages.</p>
+<?php include('inc/header.php'); ?>
+
+	<h4>Confirmation of Order</h4>
+	<p>Hi <?php echo "$clientName"; ?>,</p> <br>
+	<p>We have received your order and are beginning to gather your yarns.  We look forward to seeing you in the store and hope you end up with a few bonus moments to browse as well!  Thank you for your order.</p><br>
+	<p>Truly, </p> <br>
+	<p>Your friends at Close Knit</p>
 </body>
 </html>

@@ -208,11 +208,9 @@ PAGE: ORDER-FORM  ---
 	margin-top: 5%;	
 }
 
-.form-inline {
-	width: 100%;
-}
 
-.contact-info {
+
+.contact-info .form-group {
 	display: inline-block;
 }
 /***********************************************

@@ -15,17 +15,23 @@
 			<form class="form-inline">
 			  <div class="contact-info form-group">
 			    <label for="exampleInputName2">Name</label>
-			    <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
+			    <input type="text" class="form-control" id="$clientName" placeholder="Full Name">
 			  </div>
 			  <div class="contact-info form-group">
 			    <label for="exampleInputEmail2">Email</label>
-			    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address for questions about your order">
+			    <input type="email" class="form-control" id="clientEmail" placeholder="Email address for questions about your order">
 			  </div>
 			</form>
 			<div class="form-group">
+				<!--YARN NAME -->
 				<label for="$yarnName">Choose Yarn</label>
 			<!-- "form-control" is for INPUT tags and allows control over things like size of input field -->
 				<input id="$yarnName" name="$yarnName" class="form-control" type="text"> <!--don't need closing tag for INPUT -->
+
+				<!--YARN QUANTITY -->
+				<label for="$yarnQuantity">Quantity</label>
+			<!-- "form-control" is for INPUT tags and allows control over things like size of input field -->
+				<input id="$yarnQuantity" name="$yarnQuantity" class="form-control" type="text"> <!--don't need closing tag for INPUT -->				
 
 			<button type="submit" class="btn btn-primary">Gather my yarn!</button>
 			</div>

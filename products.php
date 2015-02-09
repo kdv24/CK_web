@@ -75,25 +75,21 @@ include('inc/header.php'); ?>
 
     <div>
         <h4>Our selection as of <?php echo date('m/d/y'); ?></h4>
-          <ul>
-            <?php foreach($yarns as $yarn) {?>
-            <li class="row col-xs-6 col-md-3">
-                <a href="#">
-                  <img class="yarnPics" src="<?php echo $yarn["img"]; ?>" alt="<?php echo $yarn["name"]; ?>">
-            </li>
-             <?php } ?>
+          <ul class="products">
+            <?php foreach($yarns as $yarn) {
+                echo '<li class="row col-xs-6 col-sm-4 col-md-3">';
+                echo '<a href="#">';
+                echo '<img src="' . $yarn["img"] . '" alt="' . $yarn["name"] . '">';
+                echo '<p>' . $yarn["name"] . '</p>';
+                echo "</li>";
+              } 
+            ?>
           </ul>
-
-
-          <img src="img/ckyarns/artyarns.png" alt="artyarns">
-          <img src="img/ckyarns/brambleberry.png" alt="brambleberry">
-          <img src="img/ckyarns/craftyhedgehog.png" alt="craftyhedgehog">
-          <img src="img/ckyarns/darngoodyarn.png" alt="darngoodyarn">
-          <img src="img/ckyarns/edgewoodgardenstudio.png" alt="edgewoodgardenstudio">
-          <img src="img/ckyarns/fyberspates.png" alt="fyberspates">
-          <img src="img/ckyarns/gingkoleaf.png" alt="gingkoleaf">
-          <img src="img/ckyarns/hoggwildfibers.png" alt="hoggwildfibers">
     </div> 
+
+    <div class="order-form">
+    <?php include('inc/order-form'); ?>
+    </div>
   
 <?php include('inc/footer.php'); ?>
   

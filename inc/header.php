@@ -23,7 +23,7 @@
 
 
  <!--LOGO & NAME -->
-    <div class="container">
+    <div>
       <div id="logo_gif">
         <a href= "index.php"><img src="img/closeknit_portland.gif" alt="CloseKnit"></a>
       </div>

@@ -66,20 +66,22 @@ li {
 	width: 100%;
 }
 
-ul .header {
+ul.header {
 	list-style: none;
-
+	width: 100%;
+	display: inline-block;
 }
 
 ul.header li{
-	display: inline-block;
-	float: center;
+	margin-left: 6%;
+	margin-right: 6%;
 	margin-bottom: 10px;
 	text-align: center;
 	list-style: none;
-	padding: 20px 5px;
+	padding: 20px 0px;
 	letter-spacing: 1.25px;
-
+	display: inline-block;
+	float: center;
 }
 
 ul.footer li{
@@ -169,6 +171,18 @@ PAGE: PATTERNS  --- all images 280 x 320
 /***************************************
 PAGE: PRODUCTS  --- 
 ***************************************/
+ul.products p {
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+ul.products img {
+	width: 200px;
+	height: 200px;
+	padding: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
 
 
 /***********************************************

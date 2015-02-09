@@ -184,6 +184,14 @@ ul.products img {
 	vertical-align: top;
 }
 
+.order-form button {
+	display: inline-block;
+	float: left;
+	margin-left: 40%;
+	margin-right: 50%;
+	margin-bottom: 5%;
+
+}
 
 /***********************************************
 PAGE: BLOG  --- iframe for blog page contents from blogspot;

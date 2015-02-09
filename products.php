@@ -85,11 +85,13 @@ include('inc/header.php'); ?>
               } 
             ?>
           </ul>
+      <div class="order-form">
+        <button class="btn btn-primary" name="order-form" id="order-form" type="submit">Place order</button>
+<?php include('inc/order-form'); ?>
+        </div>    
     </div> 
 
-    <div class="order-form">
-    <?php include('inc/order-form'); ?>
-    </div>
+
   
 <?php include('inc/footer.php'); ?>
   
@@ -98,3 +100,5 @@ include('inc/header.php'); ?>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="js/jquery-1.11.1.js"></script>
 </html>
+
+

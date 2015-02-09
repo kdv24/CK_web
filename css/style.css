@@ -190,9 +190,31 @@ ul.products img {
 	margin-left: 40%;
 	margin-right: 50%;
 	margin-bottom: 5%;
-
 }
 
+#order-form a {
+	color: #fff;
+}
+
+/***************************************
+PAGE: ORDER-FORM  --- 
+***************************************/
+
+.form-group button {
+	display: inline-block;
+	float: center;
+	margin-left: 40%;
+	margin-right: 50%;
+	margin-top: 5%;	
+}
+
+.form-inline {
+	width: 100%;
+}
+
+.contact-info {
+	display: inline-block;
+}
 /***********************************************
 PAGE: BLOG  --- iframe for blog page contents from blogspot;
 ***********************************************/

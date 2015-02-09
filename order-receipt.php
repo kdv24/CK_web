@@ -1,8 +1,7 @@
 <?php 
-$clientName = "clientName";
-$yarnName = $_GET["yarnName"];
-$yarnPrice = $_GET["yarnPrice"];
-$yarnSKU = $_GET["yarnSKU"]
+$variable_name = "me";
+$variable_name = $_GET["INPUT NAME value"];
+$fact_of_the_day = $_GET["fact_of_the_day"]
 ?>
 
 <!DOCTYPE html>

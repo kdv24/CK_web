@@ -86,8 +86,10 @@ include('inc/header.php'); ?>
             ?>
           </ul>
       <div class="order-form">
-        <button class="btn btn-primary" name="order-form" id="order-form" type="submit">Place order</button>
-<?php include('inc/order-form'); ?>
+        <form action="order-form.php">
+          <button class="btn btn-primary" name="order-form" id="order-form" type="button"><a href="order-form.php">Order Yarn</button>
+        </form>
+<?php include('order-form'); ?>
         </div>    
     </div> 
 

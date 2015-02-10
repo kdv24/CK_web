@@ -21,52 +21,45 @@
 			    <label for="exampleInputEmail2">Email</label>
 			    <input type="email" class="form-control" id="clientEmail" placeholder="Email address for questions about your order">
 			  </div>
+
+				<div class="order-form yarn-name">
+	<!--YARN NAME -->
+					<label for="$yarnName">Choose Yarn</label>
+					<input id="$yarnName" name="$yarnName" class="form-control" type="select"> 
+		
+	<!-- not sure how to add these better yet 
+					<select class="yarnNames">
+						  <option>Art Yarns</option>
+						  <option>Brambleberry</option>
+						  <option>Crafty Hedgehog</option>
+						  <option>Darn Good Yarn</option>
+						  <option>Edgefield Garden Studio</option>
+						  <option>Fyberspates</option>
+						  <option>Gingko Leaf</option>
+						  <option>Hogg Wild Fibers</option>
+					</select>
+				-->	
+				</div>
+	<!--YARN QUANTITY -->
+				<div class="order-form yarn-quantity">	
+					<label for="$yarnQuantity">Quantity</label>
+					<input id="$yarnQuantity" name="$yarnQuantity" class="form-control" type="text">
+				</div>	
+	<!--YARN SKU *AUTOFILL-->
+				<div class="order-form yarn-SKU">	
+					<label for="$yarnSKU">SKU</label>
+					<input id="$yarnSKU" name="$yarnSKU" class="form-control" type="text"> 
+				</div>	
+	<!--YARN PRICE *AUTOFILL-->
+				<div class="order-form yarn-price">	
+					<label for="$yarnPrice">Price</label>
+					<input id="$yarnPrice" name="$yarnPrice" class="form-control" type="text"> 
+				</div>	
+
+				<div class="form-group">
+				<button type="submit" class="btn btn-primary">"Gather my yarn!"</button>
+				</div>
 			</form>
-			<div class="order-form yarn-name">
-<!--YARN NAME -->
-
-				<label for="$yarnName">Choose Yarn</label>
-				<input id="$yarnName" name="$yarnName" class="form-control" type="select"> 
-	
-<!-- not sure how to add these better yet 
-				<select class="yarnNames">
-					  <option>Art Yarns</option>
-					  <option>Brambleberry</option>
-					  <option>Crafty Hedgehog</option>
-					  <option>Darn Good Yarn</option>
-					  <option>Edgefield Garden Studio</option>
-					  <option>Fyberspates</option>
-					  <option>Gingko Leaf</option>
-					  <option>Hogg Wild Fibers</option>
-				</select>
-			-->	
-			</div>
-
-
-
-
-
-
-
-<!--YARN QUANTITY -->
-			<div class="order-form yarn-quantity">	
-				<label for="$yarnQuantity">Quantity</label>
-				<input id="$yarnQuantity" name="$yarnQuantity" class="form-control" type="text">
-			</div>	
-<!--YARN SKU *AUTOFILL-->
-			<div class="order-form yarn-SKU">	
-				<label for="$yarnSKU">SKU</label>
-				<input id="$yarnSKU" name="$yarnSKU" class="form-control" type="text"> 
-			</div>	
-<!--YARN PRICE *AUTOFILL-->
-			<div class="order-form yarn-price">	
-				<label for="$yarnPrice">Price</label>
-				<input id="$yarnPrice" name="$yarnPrice" class="form-control" type="text"> 
-			</div>	
-
-			<div class="form-group">
-			<button type="submit" class="btn btn-primary">Gather my yarn!</button>
-			</div>
 		</form>
 <?php include('inc/footer.php'); ?>		
 </body>	

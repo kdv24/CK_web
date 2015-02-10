@@ -13,26 +13,37 @@
 		<form action="order-receipt.php">
 		<!-- "form-group" is for DIV wrapping LABEL & INPUT tags -->
 			<form class="form-inline">
-			  <div class="contact-info form-group">
+			  <div class="contact-info">
 			    <label for="exampleInputName2">Name</label>
 			    <input type="text" class="form-control" id="$clientName" placeholder="Full Name">
 			  </div>
-			  <div class="contact-info form-group">
+			  <div class="contact-info">
 			    <label for="exampleInputEmail2">Email</label>
 			    <input type="email" class="form-control" id="clientEmail" placeholder="Email address for questions about your order">
 			  </div>
 			</form>
-			<div class="form-group">
-				<!--YARN NAME -->
+			<div class="order-form yarn-name">
+<!--YARN NAME -->
 				<label for="$yarnName">Choose Yarn</label>
-			<!-- "form-control" is for INPUT tags and allows control over things like size of input field -->
-				<input id="$yarnName" name="$yarnName" class="form-control" type="text"> <!--don't need closing tag for INPUT -->
-
-				<!--YARN QUANTITY -->
+				<input id="$yarnName" name="$yarnName" class="form-control" type="text"> 
+			</div>
+<!--YARN QUANTITY -->
+			<div class="order-form yarn-quantity">	
 				<label for="$yarnQuantity">Quantity</label>
-			<!-- "form-control" is for INPUT tags and allows control over things like size of input field -->
-				<input id="$yarnQuantity" name="$yarnQuantity" class="form-control" type="text"> <!--don't need closing tag for INPUT -->				
+				<input id="$yarnQuantity" name="$yarnQuantity" class="form-control" type="text">
+			</div>	
+<!--YARN SKU *AUTOFILL-->
+			<div class="order-form yarn-SKU">	
+				<label for="$yarnSKU">SKU</label>
+				<input id="$yarnSKU" name="$yarnSKU" class="form-control" type="text"> 
+			</div>	
+<!--YARN PRICE *AUTOFILL-->
+			<div class="order-form yarn-price">	
+				<label for="$yarnPrice">Price</label>
+				<input id="$yarnPrice" name="$yarnPrice" class="form-control" type="text"> 
+			</div>	
 
+			<div class="form-group">
 			<button type="submit" class="btn btn-primary">Gather my yarn!</button>
 			</div>
 		</form>

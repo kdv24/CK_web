@@ -200,19 +200,55 @@ ul.products img {
 PAGE: ORDER-FORM  --- 
 ***************************************/
 
+.order-form {
+	text-align: center;
+	width: 100%;
+}
+
+.yarn-name {
+	display: inline-block;
+	float: left;
+	width: 60%;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-right: 4%;
+}
+
+.yarn-quantity {
+	display: inline-block;
+	float: left;
+	width: 10%;
+	padding-right: 4%;
+
+}
+
+.yarn-SKU {
+	display: inline-block;
+	float: left;
+	width: 15%;
+	padding-right: 4%;
+}
+
+.yarn-price {
+	display: inline-block;
+	float: left;
+	width: 15%;
+}
+
+.contact-info {
+	text-align: left;
+	padding: 1% 0%;
+}
+
 .form-group button {
 	display: inline-block;
 	float: center;
 	margin-left: 40%;
 	margin-right: 50%;
 	margin-top: 5%;	
+
 }
 
-
-
-.contact-info .form-group {
-	display: inline-block;
-}
 /***********************************************
 PAGE: BLOG  --- iframe for blog page contents from blogspot;
 ***********************************************/

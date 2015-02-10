@@ -24,9 +24,30 @@
 			</form>
 			<div class="order-form yarn-name">
 <!--YARN NAME -->
+
 				<label for="$yarnName">Choose Yarn</label>
-				<input id="$yarnName" name="$yarnName" class="form-control" type="text"> 
+				<input id="$yarnName" name="$yarnName" class="form-control" type="select"> 
+	
+<!-- not sure how to add these better yet 
+				<select class="yarnNames">
+					  <option>Art Yarns</option>
+					  <option>Brambleberry</option>
+					  <option>Crafty Hedgehog</option>
+					  <option>Darn Good Yarn</option>
+					  <option>Edgefield Garden Studio</option>
+					  <option>Fyberspates</option>
+					  <option>Gingko Leaf</option>
+					  <option>Hogg Wild Fibers</option>
+				</select>
+			-->	
 			</div>
+
+
+
+
+
+
+
 <!--YARN QUANTITY -->
 			<div class="order-form yarn-quantity">	
 				<label for="$yarnQuantity">Quantity</label>
